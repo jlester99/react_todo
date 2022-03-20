@@ -1,0 +1,39 @@
+section.toDos {
+    /* background-image: url('../../images/background.jpg'); */
+    background-size: 100%;
+    background-position: bottom;
+    background-color: black;
+}
+
+section.toDos article.toDoTiles {
+    padding: 2em 0 4em;
+}
+
+/* #region Tile */
+article.toDoTiles div.singleToDo {
+border: 2px solid #212529;
+text-align: center;
+position: relative;
+padding: 0 0 2em;
+height: 15em;
+border-radius: 5px;
+background-color: rgba(174, 199, 211, 0.95);
+}
+
+div.singleToDo h4 {
+    background-color: rgb(118, 229, 246);
+    padding: .5em 0;
+    border-bottom: 4px solid #212529;
+    color: #151718;
+}
+
+div.singleToDo p{
+    padding: 1em;
+}
+
+@media screen and (max-width: 1023px) {
+    section.resources {
+        background-size: 200%;
+    }
+}
+/*  */
